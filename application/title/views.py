@@ -2,7 +2,7 @@ import logging
 from flask import Blueprint, jsonify
 import json
 import os
-from flask.ext.api import status
+
 
 LOGGER = logging.getLogger(__name__)
 

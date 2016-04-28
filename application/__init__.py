@@ -13,7 +13,6 @@ LOGGER.info("Starting the server")
 app = Flask(__name__, static_folder='static')
 
 
-
 # Register routes after establishing the db prevents improperly loaded modules
 # caused from circular imports
 from .title.views import title_bp  # noqa
