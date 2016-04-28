@@ -7,7 +7,7 @@
 	"": {
 		"type": "Absolute Freehold",
 		"response": "Title does not exist",
-		"response_code": "400"
+		"response_code": "404"
 	},
 	"GR519209": {
 		"type": "Franchise",
@@ -57,7 +57,7 @@
 	"AV211374": {
 		"type": "Qualified Rentcharge",
 		"response": "Title is not suitable for a Digital Mortgage as it is a Rentcharge Title",
-		"response_code": "400"
+		"response_code": "HTTP_400_BAD_REQUEST"
 	},
 	"AV182773": {
 		"type": "Possessory Leasehold",
@@ -82,7 +82,7 @@
 	"BK308598": {
 		"type": "Caution",
 		"response": "Title is not suitable for a Digital Mortgage as it is a Caution Title",
-		"response_code": "400"
+		"response_code": "HTTP_400_BAD_REQUEST"
 	},
 	"GR518039": {
 		"type": "Closed",
