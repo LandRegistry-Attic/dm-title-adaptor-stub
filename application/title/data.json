@@ -1,109 +1,122 @@
 {
 	"titles": [{
-		"title": "GR515835",
-		"type": "Absolute Freehold",
-		"response": "",
-		"response_code": ""
-	}, {
-		"title": "GR519209",
-		"type": "Franchise",
-		"response": "",
-		"response_code": ""
-	}, {
-		"title": "GR519208",
-		"type": "Relating Franchise",
-		"response": "",
-		"response_code": ""
-	}, {
-		"title": "GR528321",
-		"type": "Profit of prendre in gross",
-		"response": "",
-		"response_code": ""
-	}, {
-		"title": "GR517730",
-		"type": "Possessory Freehold",
-		"response": "",
-		"response_code": ""
-	}, {
-		"title": "BK265471",
-		"type": "Qualified Freehold",
-		"response": "",
-		"response_code": ""
-	}, {
-		"title": "",
-		"type": "Scheme Title Freehold",
-		"response": "",
-		"response_code": ""
-	}, {
-		"title": "GR314108",
-		"type": "Absolute Leasehold",
-		"response": "",
-		"response_code": ""
-	}, {
-		"title": "GR517788",
-		"type": "Good Leasehold",
-		"response": "",
-		"response_code": ""
-	}, {
-		"title": "",
-		"type": "Qualified Leasehold",
-		"response": "",
-		"response_code": ""
-	}, {
-		"title": "AV211374",
-		"type": "Qualified Rentcharge",
-		"response": "",
-		"response_code": ""
-	}, {
-		"title": "AV182773",
-		"type": "Possessory Leasehold",
-		"response": "",
-		"response_code": ""
-	}, {
-		"title": "BK257662",
-		"type": "Scheme Title Leasehold",
-		"response": "",
-		"response_code": ""
-	}, {
-		"title": "AV29204",
-		"type": "Absolute Rentcharge",
-		"response": "",
-		"response_code": ""
-	}, {
-		"title": "CH163582",
-		"type": "Possessory Rentcharge",
-		"response": "",
-		"response_code": ""
-	}, {
-		"title": "BK308598",
-		"type": "Caution",
-		"response": "",
-		"response_code": ""
-	}, {
-		"title": "GR518039",
-		"type": "Closed",
-		"response": "",
-		"response_code": ""
+			"title": "GR515835",
+			"type": "Absolute Freehold",
+			"response": "",
+			"response_code": "200"
+		}, {
+			"title": "",
+			"type": "Absolute Freehold",
+			"response": "Title does not exist",
+			"response_code": "400"
+		}, {
+			"title": "GR519209",
+			"type": "Franchise",
+			"response": "Title is not suitable for a Digital Mortgage as it is a Franchise Title",
+			"response_code": "400"
+		}, {
+			"title": "GR519208",
+			"type": "Relating Franchise",
+			"response": "Title is not suitable for a Digital Mortgage as it a relating Franchise Title",
+			"response_code": "400"
+		}, {
+			"title": "GR528321",
+			"type": "Profit of prendre in gross",
+			"response": "Title is not suitable for a Digital Mortgage as it is a Profit of preener in gross.",
+			"response_code": "400"
+		}, {
+			"title": "GR517730",
+			"type": "Possessory Freehold",
+			"response": "",
+			"response_code": "200"
+		}, {
+			"title": "BK265471",
+			"type": "Qualified Freehold",
+			"response": "Title is not suitable for a Digital Mortgage as it is a Qualified Title",
+			"response_code": "400"
+		}, {
+			"title": "?",
+			"type": "Scheme Title Freehold",
+			"response": "Title is not suitable for a Digital Mortgage  as it is a Scheme Title",
+			"response_code": "400"
+		}, {
+			"title": "GR314108",
+			"type": "Absolute Leasehold",
+			"response": "",
+			"response_code": "200"
+		}, {
+			"title": "GR517788",
+			"type": "Good Leasehold",
+			"response": "",
+			"response_code": "200"
+		}, {
+			"title": "?",
+			"type": "Qualified Leasehold",
+			"response": "",
+			"response_code": "200"
+		}, {
+			"title": "AV211374",
+			"type": "Qualified Rentcharge",
+			"response": "Title is not suitable for a Digital Mortgage as it is a Rentcharge Title",
+			"response_code": "400"
+		}, {
+			"title": "AV182773",
+			"type": "Possessory Leasehold",
+			"response": "",
+			"response_code": "200"
+		}, {
+			"title": "BK257662",
+			"type": "Scheme Title Leasehold",
+			"response": "Title is not suitable for a Digital Mortgage  as it is a Scheme Title.",
+			"response_code": "400"
+		}, {
+			"title": "AV29204",
+			"type": "Absolute Rentcharge",
+			"response": "Title is not suitable for a Digital Mortgage as it is a Rentcharge Title",
+			"response_code": "400"
+		}, {
+			"title": "CH163582",
+			"type": "Possessory Rentcharge",
+			"response": "Title is not suitable for a Digital Mortgage as it is a Rentcharge Title",
+			"response_code": "400"
+		}, {
+			"title": "BK308598",
+			"type": "Caution",
+			"response": "Title is not suitable for a Digital Mortgage as it is a Caution Title",
+			"response_code": "400"
+		}, {
+			"title": "GR518039",
+			"type": "Closed",
+			"response": "Title Closed",
+			"response_code": "400"
 
-	}, {
-		"title": "GR518006",
-		"type": "Closed and Continued",
-		"response": "",
-		"response_code": ""
-	}, {
-		"title": "BK257662",
-		"type": "e Leasehold",
-		"response": "",
-		"response_code": ""
-	}, {
-		"title": "",
-		"type": "Scheme Freehold",
-		"response": "",
-		"response_code": ""
-	}, {
-		"title": "GR146463",
-		"type": "developer",
-		"response": "",
-		"response_code": ""
-	}]
+		}, {
+			"title": "GR518006",
+			"type": "Closed and Continued",
+			"response": "Title Closed and Continued under GR515835",
+			"response_code": "400"
+		}, {
+			"title": "BK257662",
+			"type": "e Leasehold",
+			"response": "",
+			"response_code": "200"
+		}, {
+			"title": "?",
+			"type": "Scheme Freehold",
+			"response": "Title is not suitable for a Digital Mortgage  as it is a Scheme Title.",
+			"response_code": "400"
+		}, {
+			"title": "GR146463",
+			"type": "developer",
+			"response": "200",
+			"response_code": ""
+		},
+
+		{
+			"title": "?",
+			"type": "commonhold",
+			"response": "",
+			"response_code": "200"
+		}
+	]
 }
