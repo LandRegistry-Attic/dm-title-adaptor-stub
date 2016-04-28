@@ -1,0 +1,11 @@
+{
+  "name": "dm-title-adaptor-stub",
+  "version": "0.0.1",
+  "author": "Land Registry Digital Mortgage Team",
+  "summary": "Install the DM title adaptor stub.",
+  "license": "MIT",
+  "source": "https://github.com/LandRegistry/dm-title-adaptor-stub",
+  "project_page": "https://github.com/LandRegistry/dm-title-adaptor-stub",
+  "issues_url": "https://github.com/LandRegistry/dm-title-adaptor-stub",
+  "dependencies": [{"name": "puppetlabs/vcsrepo"}]
+}
