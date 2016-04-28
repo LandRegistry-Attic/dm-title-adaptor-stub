@@ -13,7 +13,7 @@ title_bp = Blueprint('title', __name__,
 
 @title_bp.route('/titlenumber/<title_no>', methods=['GET'])
 def get_deed(title_no):
-    titles = ""
+
     with open(os.getcwd() + '/application/title/data.json') as data_file:
         titles = json.load(data_file)
     try:
