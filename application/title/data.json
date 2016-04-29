@@ -107,8 +107,8 @@
 	},
 	"GR146463": {
 		"type": "developer",
-		"response": "200",
-		"response_code": ""
+		"response": "400",
+		"response_code": "Title is not suitable for a Digital Mortgage  as it is a Developer Title"
 	},
 	"?": {
 		"type": "commonhold",
