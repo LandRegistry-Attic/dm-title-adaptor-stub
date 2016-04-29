@@ -51,8 +51,8 @@
 	},
 	"?": {
 		"type": "Qualified Leasehold",
-		"response": "",
-		"response_code": "200"
+		"response": "Title is not suitable for a Digital Mortgage as it is a Qualified Title",
+		"response_code": "400"
 	},
 	"AV211374": {
 		"type": "Qualified Rentcharge",
