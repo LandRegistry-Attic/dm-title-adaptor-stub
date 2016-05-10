@@ -16,12 +16,12 @@
 	},
 	"GR519208": {
 		"type": "Relating Franchise",
-		"response": "Title is not suitable for a Digital Mortgage as it is a relating Franchise Title",
+		"response": "Title is not suitable for a Digital Mortgage as it is a Relating Franchise Title",
 		"response_code": "400"
 	},
 	"GR528321": {
 		"type": "Profit of prendre in gross",
-		"response": "Title is not suitable for a Digital Mortgage as it is a Profit of preener in gross.",
+		"response": "Title is not suitable for a Digital Mortgage as it is a Profit of prendre in gross.",
 		"response_code": "400"
 	},
 	"GR517730": {
@@ -34,7 +34,7 @@
 		"response": "Title is not suitable for a Digital Mortgage as it is a Qualified Title",
 		"response_code": "400"
 	},
-	"?": {
+	"GR543543": {
 		"type": "Scheme Title Freehold",
 		"response": "Title is not suitable for a Digital Mortgage  as it is a Scheme Title",
 		"response_code": "400"
@@ -49,7 +49,7 @@
 		"response": "",
 		"response_code": "200"
 	},
-	"?": {
+	"GR516921": {
 		"type": "Qualified Leasehold",
 		"response": "Title is not suitable for a Digital Mortgage as it is a Qualified Title",
 		"response_code": "400"
@@ -57,7 +57,7 @@
 	"AV211374": {
 		"type": "Qualified Rentcharge",
 		"response": "Title is not suitable for a Digital Mortgage as it is a Rentcharge Title",
-		"response_code": "HTTP_400_BAD_REQUEST"
+		"response_code": "400"
 	},
 	"AV182773": {
 		"type": "Possessory Leasehold",
@@ -82,7 +82,7 @@
 	"BK308598": {
 		"type": "Caution",
 		"response": "Title is not suitable for a Digital Mortgage as it is a Caution Title",
-		"response_code": "HTTP_400_BAD_REQUEST"
+		"response_code": "400"
 	},
 	"GR518039": {
 		"type": "Closed",
@@ -92,15 +92,10 @@
 	},
 	"GR518006": {
 		"type": "Closed and Continued",
-		"response": "Title Closed and Continued under GR515835",
+		"response": "Title Closed and Continued under GR518327",
 		"response_code": "400"
 	},
-	"BK257662": {
-		"type": "e Leasehold",
-		"response": "",
-		"response_code": "200"
-	},
-	"?": {
+	"DT12345": {
 		"type": "Scheme Freehold",
 		"response": "Title is not suitable for a Digital Mortgage  as it is a Scheme Title.",
 		"response_code": "400"
@@ -110,9 +105,16 @@
 		"response": "400",
 		"response_code": "Title is not suitable for a Digital Mortgage  as it is a Developer Title"
 	},
-	"?": {
-		"type": "commonhold",
-		"response": "",
-		"response_code": "200"
+
+	"DT58118": {
+		"type": "common parts",
+		"response": "Title is not suitable for a Digital Mortgage as it is a Commonhold title",
+		"response_code": "400"
+	},
+	"CYM497": {
+		"type": "common units",
+		"response": "Title is not suitable for a Digital Mortgage as it is a Commonhold title",
+		"response_code": "400"
 	}
+
 }
