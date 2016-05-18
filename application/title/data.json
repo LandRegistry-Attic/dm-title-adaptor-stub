@@ -16,17 +16,17 @@
 	},
 	"GR519208": {
 		"type": "Relating Franchise",
-		"response": "Title is not suitable for a Digital Mortgage as it is a Relating Franchise Title",
+		"response": "Title is not suitable for a Digital Mortgage as it is a relating Franchise Title",
 		"response_code": "400"
 	},
 	"GR528321": {
 		"type": "Profit of prendre in gross",
-		"response": "Title is not suitable for a Digital Mortgage as it is a Profit of prendre in gross.",
+		"response": "Title is not suitable for a Digital Mortgage as it is a Profit of prendre in gross Title.",
 		"response_code": "400"
 	},
 	"GR517730": {
 		"type": "Possessory Freehold",
-		"response": "",
+		"response": "title OK",
 		"response_code": "200"
 	},
 	"BK265471": {
@@ -41,12 +41,12 @@
 	},
 	"GR314108": {
 		"type": "Absolute Leasehold",
-		"response": "",
+		"response": "title OK",
 		"response_code": "200"
 	},
 	"GR517788": {
 		"type": "Good Leasehold",
-		"response": "",
+		"response": "title OK",
 		"response_code": "200"
 	},
 	"GR516921": {
@@ -56,17 +56,17 @@
 	},
 	"AV211374": {
 		"type": "Qualified Rentcharge",
-		"response": "Title is not suitable for a Digital Mortgage as it is a Rentcharge Title",
+		"response": "Title is not suitable for a Digital Mortgage as it is a Qualified Title",
 		"response_code": "400"
 	},
 	"AV182773": {
 		"type": "Possessory Leasehold",
-		"response": "",
+		"response": "title OK",
 		"response_code": "200"
 	},
 	"BK257662": {
 		"type": "Scheme Title Leasehold",
-		"response": "Title is not suitable for a Digital Mortgage  as it is a Scheme Title.",
+		"response": "Title is not suitable for a Digital Mortgage as it is a Scheme Title.",
 		"response_code": "400"
 	},
 	"AV29204": {
@@ -90,20 +90,20 @@
 		"response_code": "400"
 
 	},
-	"GR518006": {
+	"GR518327": {
 		"type": "Closed and Continued",
-		"response": "Title Closed and Continued under GR518327",
+		"response": "Title Closed and Continued under GR518006",
 		"response_code": "400"
 	},
 	"DT12345": {
 		"type": "Scheme Freehold",
-		"response": "Title is not suitable for a Digital Mortgage  as it is a Scheme Title.",
+		"response": "Title is not suitable for a Digital Mortgage as it is a Scheme Title.",
 		"response_code": "400"
 	},
 	"GR146463": {
 		"type": "developer",
 		"response": "400",
-		"response_code": "Title is not suitable for a Digital Mortgage  as it is a Developer Title"
+		"response_code": "Title is not suitable for a Digital Mortgage as it is a Developer Title"
 	},
 
 	"DT58118": {
