@@ -22,6 +22,6 @@ def get_deed(title_no):
         result = None
 
     if result is None:
-        return jsonify({"message": "Title does not exist"}), 404
+        return  "Title does not exist"
 
-    return jsonify({"message": result['response']}), result['response_code']
+    return result['response']
