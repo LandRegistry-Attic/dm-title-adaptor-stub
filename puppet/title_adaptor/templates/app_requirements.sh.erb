@@ -19,27 +19,14 @@ install_requirements=$?
 source integration_test.sh
 integration_tests=$?
 
-# Run the database migration to ensure its up to date
-python manage.py db upgrade
-database_migrate=$?
-
-DATABASE_URL="${DEED_DATABASE_URI:-postgresql://vagrant:vagrant@localhost:5432/deed_api}"
-
-# Mortgage document - upserts of md_ref's data
-python3 ./migrations/setup_initial_data/data_importer.py /data/mortgage_document/ $DATABASE_URL mortgage_document
-
 # Check for successes and failures, report and return
-if [ "$database_migrate" -eq 0 ] && [ "$install_requirements" -eq 0 ] && [ "$integration_tests" -eq 0 ]; then
+if [ "$install_requirements" -eq 0 ] && [ "$integration_tests" -eq 0 ]; then
   deactivate
   echo "Pip install, Integration tests and database migrated SUCESSFUL. Exiting"
   exit 0
 elif [ "$install_requirements" -ne 0 ]; then
   deactivate
   echo "Pip install FAILED. Exiting"
-  exit 1
-elif [ "$database_migrate" -ne 0 ]; then
-  deactivate
-  echo "Database migration FAILED. Exiting"
   exit 1
 elif [ "$integration_tests" -ne 0 ]; then
   deactivate
