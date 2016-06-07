@@ -2,7 +2,7 @@
 class title_adaptor (
     $port = '5010',
     $host = '0.0.0.0',
-    $source = 'https://github.com/LandRegistry/dm-title-adaptor-stub',
+    $source = 'git@github.com:LandRegistry/dm-title-adaptor-stub.git',
     $branch_or_revision = 'develop',
     $subdomain = 'title',
     $domain = undef,
