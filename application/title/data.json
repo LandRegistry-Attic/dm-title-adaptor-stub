@@ -115,6 +115,30 @@
 		"type": "common units",
 		"response": "Title is not suitable for a Digital Mortgage as it is a Commonhold title",
 		"response_code": "400"
+	},
+	"CYM123456": {
+		"type": "Absolute Freehold",
+		"response": "title OK",
+		"response_code": "200"
+	},
+	"CYM123457": {
+		"type": "Absolute Freehold",
+		"response": "title OK",
+		"response_code": "200"
+	},
+	"CYM123458": {
+		"type": "Absolute Freehold",
+		"response": "title OK",
+		"response_code": "200"
+	},
+	"CYM123459": {
+		"type": "Absolute Freehold",
+		"response": "title OK",
+		"response_code": "200"
+	},
+	"CYM123460": {
+		"type": "Absolute Freehold",
+		"response": "title OK",
+		"response_code": "200"
 	}
-
 }
