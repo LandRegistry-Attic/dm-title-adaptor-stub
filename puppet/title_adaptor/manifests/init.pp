@@ -59,19 +59,6 @@ class title_adaptor (
       Service[$module_name]
     ],
   }
-
-  exec {"${app_dir}/bin/app_requirements.sh":
-    cwd       => "${app_dir}",
-    user      => $owner,
-    logoutput => true,
-    environment => ["DEED_DATABASE_NAME=deed_api","ESEC_CLIENT_URI=http://127.0.0.1:9040"],
-    require   => [
-      Vcsrepo["${app_dir}"],
-      Standard_env::Db::Postgres[$module_name],
-      File["${app_dir}/bin/app_requirements.sh"],
-    ],
-  }
-
   service { $module_name:
     ensure   => 'running',
     enable   => true,
@@ -94,11 +81,6 @@ class title_adaptor (
     group   => $group,
     notify  => Service['nginx'],
   }
-
-  standard_env::db::postgres { $module_name:
-   user     => $owner,
-   password => $owner,
- }
 
   if $environment == 'development' {
     standard_env::dev_host { $subdomain: }
