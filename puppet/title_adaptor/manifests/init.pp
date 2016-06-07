@@ -3,7 +3,7 @@ class title_adaptor (
     $port = '5010',
     $host = '0.0.0.0',
     $source = 'https://github.com/LandRegistry/dm-title-adaptor-stub',
-    $branch_or_revision = 'master',
+    $branch_or_revision = 'develop',
     $subdomain = 'title',
     $domain = undef,
     $owner = 'vagrant',
