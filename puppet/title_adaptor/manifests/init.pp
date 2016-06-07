@@ -32,16 +32,6 @@ class title_adaptor (
     notify  => Service[$module_name],
   }
 
-  file { "${app_dir}/bin/app_requirements.sh":
-    ensure  => 'file',
-    mode    => '0755',
-    owner   => $owner,
-    group   => $group,
-    content => template("${module_name}/app_requirements.sh.erb"),
-    require => Vcsrepo["/opt/${module_name}"],
-    notify  => Service[$module_name],
-  }
-
   file { "/var/run/${module_name}":
     ensure => 'directory',
     owner  => $owner,
@@ -60,18 +50,6 @@ class title_adaptor (
     ],
   }
 
-  exec {"${app_dir}/bin/app_requirements.sh":
-    cwd       => "${app_dir}",
-    user      => $owner,
-    logoutput => true,
-    environment => ["DEED_DATABASE_NAME=deed_api","ESEC_CLIENT_URI=http://127.0.0.1:9040"],
-    require   => [
-      Vcsrepo["${app_dir}"],
-      Standard_env::Db::Postgres[$module_name],
-      File["${app_dir}/bin/app_requirements.sh"],
-    ],
-  }
-
   service { $module_name:
     ensure   => 'running',
     enable   => true,
@@ -81,8 +59,7 @@ class title_adaptor (
       File["/opt/${module_name}/bin/run.sh"],
       File["/etc/systemd/system/${module_name}.service"],
       File["/var/run/${module_name}"],
-      Standard_env::Db::Postgres[$module_name],
-      Exec["${app_dir}/bin/app_requirements.sh"],
+      Standard_env::Db::Postgres[$module_name]
     ],
   }
 
